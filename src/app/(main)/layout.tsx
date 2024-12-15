@@ -10,6 +10,7 @@ const Layout = (props: Props) => {
       <MenuOptions />
       <div className="w-full">
         <InfoBar />
+        {props.children}
       </div>
     </div>
   );
